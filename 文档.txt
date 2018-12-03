@@ -1,0 +1,11 @@
+npm init -y 快速创建一个package 文件
+npm i -D webpack webpack-cli  webpack把webpack-cli拆分出来所以需要下载
+npm i webpack-dev-server devServer
+npm i webpack-html-plugin 
+extract-text-webpack-plugin 样式拆分
+clean-webpack-plugin 打包前先清空dist文件夹
+url-loader  将图片转成base64
+file-loader 解析URL的引入
+html-withimg-loader 处理相对路径的img资源
+babel-core babel-loader babel-preset-env  es6转es5
+npm i webpack-merge uglifyjs-webpack-plugin -D 
